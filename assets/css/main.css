@@ -123,6 +123,9 @@ h6 {
   border-top-color: var(--surface-color);
   animation: php-email-form-loading 1s linear infinite;
 }
+/* .all{
+  color: #34b7a7;
+} */
 
 @keyframes php-email-form-loading {
   0% {
@@ -810,6 +813,31 @@ section,
 .img-fluid {
   border-radius: 5%;
 }
+
+/* ------------------------------------------------------------
+Mirro text
+--------------------------------------------------------------- */
+
+/* .mirror-text::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #33b4ac; /* Match the underline color */
+  /* margin: 2px auto 0;
+} */ 
+
+/* .mirror {
+  transform: scaleY(1);
+  opacity: 0.2;
+  margin-top: 10px;
+  font-size: 48px; Larger font */
+  /* font-weight: bold;
+  color: #979494;
+  position: relative;
+  text-transform: capitalize; */
+  
+/* } */
 
 /*--------------------------------------------------------------
 # Skills Section
